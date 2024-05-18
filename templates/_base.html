@@ -10,8 +10,14 @@
 </head>
 <body>
     <header>
-        <h1><a href="">Blog</a> </h1>
+        <h1>
+            <a href="">Blog</a>
+        </h1>
     </header>
+
+    <div>
+    <a href="{% url 'create' %}">New Post</a>
+    </div>
     
     {% block content %}
 
